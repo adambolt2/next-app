@@ -23,7 +23,7 @@ const Aboutme = () => {
                 Today, as I reflect on my journey, I&apos;m filled with gratitude for the opportunities to delve deeper into this ever-evolving field. The internet, with all its complexities and nuances, continues to inspire and challenge me. It&apos;s not just about understanding how things work but also about appreciating the creativity and innovation that drive technological advancement.
                 As I look ahead, I am excited by the prospect of contributing to this dynamic field, leveraging my knowledge and passion to create meaningful solutions and push the boundaries of what&apos;s possible. My fascination with programming and technology is not just a hobby or a career path—it&apos;s a lifelong journey of exploration and discovery.
             </p>
-            <div className='flex justify-start ml-4  xl:ml-'>
+            <div className='flex justify-start xl:ml-4  xl:ml-'>
                 <div className='box'>
                 <h1 className='text-xl py-4 mb-0  font-bold'>Hobbies:</h1>
 

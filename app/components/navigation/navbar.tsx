@@ -46,7 +46,7 @@ const Navbar = () => {
   };
 
   return (
-    <header className="bg-black dark:bg-stone-100 dark:text-black p-0 text-white flex flex-row w-full justify-between items-center px-4 py-3 sm:px-6 md:px-6">
+    <header className="bg-black text-xs md:text-lg dark:bg-stone-100 dark:text-black p-0 text-white flex flex-row w-full justify-between items-center px-4 py-3 sm:px-6 md:px-6">
       <Link href="/" className={`hover:text-blue-500 ${pathname === '/' ? 'text-blue-500' : ''}`}>
         Home
       </Link>
