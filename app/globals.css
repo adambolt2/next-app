@@ -1,0 +1,78 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Nova+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nova+Mono&display=swap');
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+
+}
+*{
+  @apply transition-colors duration-200
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+  }
+}
+
+p,li,ul,td,tr  {
+  font-family: "Nova Mono", monospace;;
+}
+h1,h2,h3,th,header,button{
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+.box {
+  display: flex;
+  padding: 10px; /* Adjust padding as needed */
+  border: 2px solid white; /* You can adjust the border style */
+  width: 100%;
+  margin-bottom: 10px;
+}
+.dark .box {
+  border-color: black; /* Change border to black in dark mode */
+}
+@media (min-width: 1280px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px; /* Adjust padding as needed */
+    border: 2px solid white; /* You can adjust the border style */
+    width: fit-content;
+    background-color: #0f172a;
+  }
+  .dark .container{
+    border: 2px solid #F6F5F2;
+    background-color: #F6F5F2;
+
+  }
+}
+
+
+body {
+  color: rgb(var(--foreground-rgb));
+  padding: 1rem;
+  margin: 0;
+  padding: 0;
+  background-color: #18181b;
+}
+.dark body{
+  background-color: #E7E5E4
+}
+.custom-list-item {
+  list-style: none;
+  padding-left: 20px; /* Adjust the value as needed */
+  text-indent: -30px; /* Match this value to padding-left */
+}
+
+.custom-list-item::before {
+  content: "-  "; /* This adds a bullet manually */
+  text-indent: 0;
+  display: inline-block; 
+  width: 20px; /* Adjust the width to align the bullet */
+}
