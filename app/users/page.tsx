@@ -24,9 +24,13 @@ const UsersPage = () => {
                         <tr key={user.id}>
                             <td className="p-2">{user.name}</td>
                             <td className="p-2">
-                                <a href={`mailto:${user.email}`} className="dark:text-indigo-700 text-blue-600">
-                                    {user.email}
-                                </a>
+                            <a 
+    href={`mailto:${user.email}`} 
+    className="dark:text-indigo-700 text-blue-600 break-word"
+>
+    {user.email}
+</a>
+
                             </td>
                             <td className="p-2">{user.position}</td>
                         </tr>
