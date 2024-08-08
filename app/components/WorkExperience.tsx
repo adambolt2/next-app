@@ -11,7 +11,7 @@ const WorkExperience = () => {
         <h1 className="w-fit text-xl py-4 mb-0 font-bold animate-fadeInInner">Personal Project</h1>
         </div>
         <div className="pl-5 mb-5 animate-fadeInInner lg:text-justify">
-        <h2 className='text-l pb-1 pt-4 mb-0 font-bold animate-fadeInInner text-decoration-line: underline'> Adam's Webscraper API/Website    </h2>
+        <h2 className='text-l pb-1 pt-4 mb-0 font-bold animate-fadeInInner text-decoration-line: underline'> Adams Webscraper API/Website    </h2>
         <p className=" animate-fadeInInner lg:text-justify">
          A personal project which I have started creating a full stack experience. Using Python to scrape ~3000 job postings from  indeed , LinkedIn and TotalJobs (Source code is available on my Github under 3 repositories) </p>
          <br/>
