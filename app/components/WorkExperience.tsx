@@ -6,6 +6,52 @@ const WorkExperience = () => {
     <div className="xl:w-9.5/10 dark:bg-stone-200 bg-zinc-900 dark:text-black text-white animate-fadeIn mx-auto flex justify-center min-h-screen">
     <div className="mt-10 mr-10 flex items-start">
       <div className="p-4 flex-1">
+
+      <div className="box xl:ml-4">
+        <h1 className="w-fit text-xl py-4 mb-0 font-bold animate-fadeInInner">Personal Project</h1>
+        </div>
+        <div className="pl-5 mb-5 animate-fadeInInner lg:text-justify">
+        <h2 className='text-l pb-1 pt-4 mb-0 font-bold animate-fadeInInner text-decoration-line: underline'> Adam's Webscraper API/Website    </h2>
+        <p className=" animate-fadeInInner lg:text-justify">
+         A personal project which I have started creating a full stack experience. Using Python to scrape ~3000 job postings from  indeed , LinkedIn and TotalJobs (Source code is available on my Github under 3 repositories) </p>
+         <br/>
+         <a className=" mb-5 text-xl dark:text-indigo-700 text-blue-600" href="https://webscrapingfront.vercel.app/" target="_blank" rel="noopener noreferrer">
+          Click here to visit the fully deployed website!
+        </a>
+        <br/>
+        <br/>
+        <a className=" mb-5 dark:text-indigo-700 text-blue-600" href="https://github.com/adambolt2/webscrapingfront" target="_blank" rel="noopener noreferrer">
+          Click here to view the frontend Source code!
+        </a>
+
+        <br/>
+        <br/>
+        <a className=" mb-5 dark:text-indigo-700 text-blue-600" href="https://github.com/adambolt2/WebScrappedBack" target="_blank" rel="noopener noreferrer">
+          Click here to view the backend Source code!
+        </a>
+
+        <br/>
+        <br/>
+        <a className=" mb-5 dark:text-indigo-700 text-blue-600" href="https://github.com/adambolt2/python-official-WebScraper" target="_blank" rel="noopener noreferrer">
+          Click here to view the Python Scrapers Source code!
+        </a>
+
+    <ol className="list-decimal mt-10 ml-3 pl-4">
+    <li className="mb-5">Scraped 1,000+ job listings from Indeed, 700+ from LinkedIn, and 800+ from TotalJobs, focusing on Software Developer roles across the UK.</li>
+    <li className="mb-5">Extracted detailed job information, including titles, descriptions, salaries, and locations, ensuring data integrity by handling errors and filtering out duplicates.</li>
+    <li className="mb-5">Built the backend using ASP . NET Web API and Entity Framework, enabling efficient data management with a SQL database.</li>
+    <li className="mb-5">Implemented the User Controller to manage user operations, handling user registration, authentication, and updates to user data.</li>
+    <li className="mb-5">Introduced master keys to control access to administrative functions, ensuring only authorized users can make admin-level changes.</li>
+    <li className="mb-5">Integrated pagination in the GET endpoints to handle large datasets more effectively.</li>
+    <li className="mb-5">Developed a responsive website using React and Chart.js for visualizing job listings data, ensuring a seamless experience across devices, including mobile.</li>
+    <li className="mb-5">Implemented user login, logout, and registration with verification codes sent to users via email using Mailjet, with these codes being validated on the backend.</li>
+    <li className="mb-5">Enabled user subscriptions and API interactions, allowing users to access and utilize data within their own code.</li>
+    <li className="mb-5">Proficient database design and management, including the use of SQL triggers to automate actions based on database events.</li>
+    <li className="mb-5">Meticulous CSS work across all pages to ensure responsiveness and an optimal user interface.</li>
+    <li className="mb-5">Skillful utilization of JavaScript to deliver a fluid and engaging user experience.</li>
+    <li className="mb-5">Deployed the backend to Azure for reliable cloud-based operation and the frontend to Vercel for fast and scalable hosting.</li>
+</ol>
+        </div>
       <div className="box xl:ml-4">
         <h1 className="w-fit text-xl py-4 mb-0 font-bold animate-fadeInInner">Work & Experience</h1>
             </div>
