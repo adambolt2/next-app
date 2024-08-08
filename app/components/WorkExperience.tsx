@@ -50,6 +50,8 @@ const WorkExperience = () => {
     <li className="mb-5">Meticulous CSS work across all pages to ensure responsiveness and an optimal user interface.</li>
     <li className="mb-5">Skillful utilization of JavaScript to deliver a fluid and engaging user experience.</li>
     <li className="mb-5">Deployed the backend to Azure for reliable cloud-based operation and the frontend to Vercel for fast and scalable hosting.</li>
+    <li className="mb-5">Enabled users to make API calls within their codebases using their API keys.</li>
+
 </ol>
         </div>
       <div className="box xl:ml-4">
